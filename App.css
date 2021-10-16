@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    background-color: rgb(236, 235, 235);
+  }
+.app-wrapper{
+    display: grid;
+
+    grid-template-areas: 
+    'header header'
+    'nav content'
+    'footer footer';
+    height: 100vh;
+    margin: 0;
+    grid-gap: 5px;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+  }
+  .header{
+    grid-area: header;
+    background-color: rgb(84, 216, 216);
+  }
+  .nav{
+    grid-area: nav;
+    background-color: rgb(231, 224, 224);
+  }
+  .content{
+    grid-area: content;
+  }
+  .footer{
+    grid-area: footer;
+    background-color: rgb(164, 161, 161);
+  }
+  ol, ul {
+    padding-left: 30px;
+  }
+  ul{
+    list-style: none;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .header ul,.footer ul{
+    display: flex;
+  }
+  .nav ul{
+    flex-direction: column;
+  }
+  li{
+    padding: 20px;
+  }
+ .nav li{
+   padding: 10px;
+ }
+ .footer ul{
+   justify-content: center;
+ }
+
+
+
