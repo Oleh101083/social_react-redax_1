@@ -1,0 +1,10 @@
+.wrapper{
+    margin: 10px;
+}
+.ul_p{
+    display:flex;
+    flex-direction:column;
+}
+.ul_p li{
+    padding: 5px;
+}

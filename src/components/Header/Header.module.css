@@ -1,0 +1,15 @@
+.header{
+    grid-area: header;
+    background-color: rgb(84, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+ ul{
+  display:flex;
+}  
+.logo{
+  height:50px;
+  margin: 5px;
+  padding-left: 10px;
+}

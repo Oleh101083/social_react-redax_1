@@ -1,0 +1,13 @@
+.myposts{
+margin: 10px;
+}
+.posts{
+    margin: 10px;
+}
+.add_post{
+    display:flex;
+    flex-direction:column;
+}
+
+
+

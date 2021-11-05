@@ -1,0 +1,8 @@
+.wrapper{
+    margin: 5px;
+    display:flex;
+    flex-diraction:column;
+}
+img{
+    border-radius:5px;
+}
